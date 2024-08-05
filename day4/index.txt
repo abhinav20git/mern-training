@@ -1,0 +1,7 @@
+//Selection of elements from dom
+
+document.getElementById(ID)
+document.getElement getElementByClassName(className)    //RETURN HTML COLLECTION
+document.getElementByTagName(tagName)                   //RETURN HTML COLLECTION
+document.querySelector(selector)
+document.querySelectorAll(selector)                     //CAN USE FOREACH

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            background-color: aqua;
+            height: 100vh;
+            width: 100vw;
+            
+        }
+        /* 
+        .child1{
+            background-color: red;
+            height: 100px;
+            width:100px;
+        }
+        .child2{
+            background-color: blue;
+            height: 100px;
+            width:100px;
+            position: absolute;
+            left: 93%;
+            top: 7px;
+        }
+        .child3{
+            background-color: palevioletred;
+            height: 100px;
+            width:100px;
+            position: relative;
+            top: 266px;
+        }
+        .child4{
+            background-color: purple;
+            height: 100px;
+            width:100px;
+            position: absolute;
+            left: 93%;
+            top: 375px;
+           
+        } */
+        .child1{
+            z-index: 2;
+            background-color: red;
+            height: 100px;
+            width:100px;
+        }
+        .child2{
+            background-color: blue;
+            height: 100px;
+            width:100px;
+            position: absolute;
+            left: 93px;
+            top: 7px;
+            z-index: 0;
+        }
+        .child3{
+            background-color: palevioletred;
+            height: 100px;
+            width:100px;
+            position: absolute;
+            top: 66px;
+            
+        }
+        .child4{
+            background-color: purple;
+            height: 100px;
+            width:100px;
+            position: absolute;
+            left: 90px;
+            top: 95px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1"></div>
+        <div class="child2"></div>
+        <div class="child3"></div>
+        <div class="child4"></div>
+    </div>
+</body>
+</html>
