@@ -7,8 +7,8 @@ app.use(cors());
 
 app.get("/data",(req,res)=>{
     res.json({
-        message:"hello",
-        item:"tuesday",
+        name:"hello",
+        day:"tuesday",
     })
 })
 

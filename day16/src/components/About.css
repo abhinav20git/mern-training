@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    background-color: aqua;
+    margin: auto;
+}
+
+.text{
+    margin:0 220px;
+}
